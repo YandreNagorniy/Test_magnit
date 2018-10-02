@@ -10,13 +10,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
         android:layout_height="match_parent"
-        android:layout_weight="3">
+        android:layout_weight="2">
 
         <TextView
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
             android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
             android:gravity="center"
             android:text="© YandreWorld!"
             android:textSize="24dp" />
@@ -24,19 +28,27 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:gravity="center"
         android:layout_height="match_parent"
-        android:layout_weight="4"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:gravity="center"
         android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
 
         <TextView
-            android:layout_margin="8dp"
             android:id="@+id/version"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorPrimary"
+            android:inputType="textMultiLine"
             android:text="@string/version"
             android:textSize="16dp" />
+        </ScrollView>
 
     </LinearLayout>
 
