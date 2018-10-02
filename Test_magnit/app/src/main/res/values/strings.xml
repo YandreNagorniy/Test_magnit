@@ -9,6 +9,5 @@
         versionCode 1 \n
         versionName "1.0" \n
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner" \n
-
-}</string>
+</string>
 </resources>
